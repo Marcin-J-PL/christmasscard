@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>zadanie</name>
+	<displayName><![CDATA[zadanie]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[logowanie edycji na produkcie]]></description>
+	<author><![CDATA[MarcinJ]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>
