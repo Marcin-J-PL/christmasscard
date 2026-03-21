@@ -38,7 +38,7 @@ class Christmasscard extends Module implements WidgetInterface{
     {
         $this->name = 'christmasscard';
         $this->tab = 'front_office_features';
-        $this->version = '1.0.0';
+        $this->version = '1.0.1';
         $this->author = 'MarcinJ';
         $this->need_instance = 1;
         $this->bootstrap = true;
@@ -46,7 +46,7 @@ class Christmasscard extends Module implements WidgetInterface{
         parent::__construct();
 
         $this->displayName = $this->l('Christmasscard');
-        $this->description = $this->l('Kartka z życzeniami po wejściu na stronę główną.');
+        $this->description = $this->l('Kartka z życzeniami po wejściu na stronę główną. Test');
         $this->confirmUninstall = $this->l('');
         $this->ps_versions_compliancy = array('min' => '1.7', 'max' => _PS_VERSION_);
         $this->templateFile = 'module:christmasscard/views/templates/hook/christmasscard.tpl';
